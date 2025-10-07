@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+    <!-- 1. Обязательно подключите скрипт от Telegram -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h2>Задать вопрос</h2>
+<form id="feedbackForm">
+    <input type="text" id="name" placeholder="Ваше имя" required>
+    <input type="email" id="email" placeholder="Ваш Email">
+    <input type="tel" id="phone" placeholder="Ваш телефон" required>
+    <textarea id="message" rows="12" placeholder="Ваше сообщение" required></textarea>
+    <button type="submit">Отправить</button>
+</form>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
